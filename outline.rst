@@ -1,6 +1,11 @@
 Web Development with Vim
 ========================
 
+Johannes Raggam
+thetetet@gmail.conf
+https://github.com/thet/dotfiles-vim 
+
+
 - Show survey:
 
     https://docs.google.com/forms/d/e/1FAIpQLSdnrZgyyNd9oNtax-AJKKFpG-bQ8SgpG2Sk9xlOoTcP1vYOEA/viewform?c=0&w=1
@@ -35,12 +40,13 @@ Show plugins and functionality
 
 - Open plugin manager ``gx``: https://github.com/junegunn/vim-plug
 
+
 File Navigation
 ~~~~~~~~~~~~~~~
 
 - Ctrl-P:
-  - ``,/``, search for ``autoformatdefaults``.
-  - ``,,`` currently open files.
+    - ``,/``, search for ``autoformatdefaults``.
+    - ``,,`` currently open files.
 - File Beagle: ``-``, a netrw alternative.
 - Buffer Gator: ``,m``
 - Open Buffer in NERDTree: ``,b``
@@ -58,8 +64,8 @@ Linting and Formating
 - ``-`` choose the python sample, format it with ``,f``, ``,i``, ``,s``
 
 - Use external formating tools:
-  - Choose ``test.json`` from root and do: ``:%!python -m json.tool``
-  - Choose ``test.rst`` from root and do: ``:%!column -t``
+    - Choose ``test.json`` from root and do: ``:%!python -m json.tool``
+    - Choose ``test.rst`` from root and do: ``:%!column -t``
 
 
 Git
@@ -85,8 +91,12 @@ More
 Show jedi-vim
 -------------
 
-- Open buildout-aaf,  zopecomponent,
-- ``,d``
+- pythonpaths part to build file with project paths:
+  https://github.com/bluedynamics/buildout-base/blob/master/etc/dev.cfg
+
+- python-config.vim which parses this file.
+
+- ask me if you're interested in this and need some help.
 
 
 Tnx A Lot!
@@ -94,6 +104,5 @@ Tnx A Lot!
 
 
 
-https://github.com/bluedynamics/buildout-base/blob/master/etc/dev.cfg
 
 
