@@ -16,15 +16,6 @@ Other (Name it)
 
 
 
-
-
-
-
-
-
-
-
-
 --> autocompletion any text. reduces errors when writing complicated var names
 
 
